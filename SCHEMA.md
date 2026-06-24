@@ -79,7 +79,7 @@ related:
   workflows: []                       # slugs of sibling workflows
 ```
 
-**Note:** the slugs must exist on the main site. If you're unsure what slugs are available, check the live site at [agentic-sdlc.dev](https://agentic-sdlc.dev) — each detail page URL ends with its slug.
+**Note:** the slugs must exist on the main site. If you're unsure what slugs are available, check the live site at [agenticpatterns.io](https://agenticpatterns.io) — each detail page URL ends with its slug.
 
 Don't worry about being exhaustive. 3–6 strong links across 2–3 sections is better than 30 weak ones. The validator caps at 3 per section; extras are dropped.
 
@@ -95,7 +95,7 @@ When in doubt, pick `tool` — it's the most common.
 
 ## `review_gate` shape
 
-Optional. When present, renders a compact rubric on the detail page showing how this workflow answers the three questions of [The Review Gate](https://agenticsdlc.dev/the-review-gate). Non-tool answers (CI, lint, human review, type-system) are first-class options — "tool-assisted" is one option among five.
+Optional. When present, renders a compact rubric on the detail page showing how this workflow answers the three questions of [The Review Gate](https://agenticpatterns.io/the-review-gate). Non-tool answers (CI, lint, human review, type-system) are first-class options — "tool-assisted" is one option among five.
 
 ```yaml
 review_gate:

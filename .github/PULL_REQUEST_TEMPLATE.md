@@ -12,7 +12,7 @@ One-line description of the workflow you're adding (or change you're making).
 
 - [ ] New MDX file lives at `workflows/<slug>.mdx`
 - [ ] Frontmatter has `title`, `tagline`, `tier`, `canonical_url` (the four required fields)
-- [ ] `tier` is one of `universal`, `multi-file`, `tool-specific`, `concept`
+- [ ] `tier` is one of `snippet`, `framework`, `tool`
 - [ ] `setup_command` is the actual install + run incantation a reader can copy
 - [ ] `when_to_use` / `when_not_to_use` are filled in
 - [ ] At least one entry in `sources`

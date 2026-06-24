@@ -1,6 +1,6 @@
 # Contributing a workflow
 
-This is the contribution surface for [agentic-sdlc.dev](https://agentic-sdlc.dev). Every `.mdx` file you add under [`workflows/`](./workflows) becomes a card on the site within ~2 minutes of merge.
+This is the contribution surface for [agenticpatterns.io](https://agenticpatterns.io). Every `.mdx` file you add under [`workflows/`](./workflows) becomes a card on the site within ~2 minutes of merge.
 
 ## TL;DR
 
@@ -24,7 +24,7 @@ Use this when there's an authoritative external doc you'd just point readers to 
 title: My Tool — My Workflow Name
 tagline: One sentence describing what this workflow does and when it shines.
 attribution: Vendor or Author Name
-tier: tool-specific      # or: universal | multi-file | concept
+tier: tool               # or: snippet | framework
 canonical_url: https://example.com/docs/my-workflow
 setup_command: |
   # The actual install + run commands a user copies
@@ -56,7 +56,7 @@ Use this when there's no maintained upstream doc you can trust (single-author bl
 title: Workflow Name
 tagline: One sentence.
 attribution: Originator (with date)
-tier: multi-file         # usually multi-file or concept for editorial cards
+tier: framework          # usually framework or snippet for editorial cards
 canonical_url: https://blog-post-or-repo-where-it-was-coined.example
 when_to_use: One sentence.
 when_not_to_use: One sentence.
@@ -107,7 +107,7 @@ When you're writing a body (editorial mode only — Reference cards leave the bo
 The Action that runs on your PR (`.github/workflows/validate.yml`) checks:
 
 - ✅ Required fields present: `title`, `tagline`, `tier`, `canonical_url`
-- ✅ `tier` is one of `universal | multi-file | tool-specific | concept`
+- ✅ `tier` is one of `snippet | framework | tool`
 - ✅ `canonical_url` is a valid HTTPS URL
 - ✅ Slug (filename minus `.mdx`) matches `[a-z0-9-]+` and is unique
 - ✅ `related` keys are subset of allowed collection names
@@ -129,8 +129,8 @@ Beyond the schema, here's what we look for in editorial review:
 ## Local preview
 
 ```bash
-git clone https://github.com/dmoka/sdlc-workflows.git
-cd sdlc-workflows
+git clone https://github.com/coderabbitai/agentic-patterns.git
+cd agentic-patterns
 npm install
 npm run lint                  # runs the validator on your changes
 ```
@@ -139,4 +139,4 @@ To preview rendering on the live site, you'll need to clone the main site repo (
 
 ## Questions
 
-Open an issue at [github.com/dmoka/sdlc-workflows/issues](https://github.com/dmoka/sdlc-workflows/issues).
+Open an issue at [github.com/coderabbitai/agentic-patterns/issues](https://github.com/coderabbitai/agentic-patterns/issues).

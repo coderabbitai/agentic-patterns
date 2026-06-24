@@ -1,9 +1,9 @@
 {
-  "name": "sdlc-workflows",
+  "name": "agentic-patterns",
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "description": "Community catalog of agentic SDLC workflows. Source of truth behind agentic-sdlc.dev.",
+  "description": "Community catalog of agentic SDLC workflows. Source of truth behind agenticpatterns.io.",
   "type": "module",
   "scripts": {
     "lint": "node scripts/validate-frontmatter.mjs",

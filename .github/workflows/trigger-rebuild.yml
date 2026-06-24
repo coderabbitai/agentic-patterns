@@ -1,7 +1,7 @@
 name: Trigger site rebuild
 
 # When a workflow MDX change lands on main, POST to the Vercel deploy hook
-# so the consuming site (agentic-sdlc.dev) rebuilds and picks up the change.
+# so the consuming site (agenticpatterns.io) rebuilds and picks up the change.
 
 on:
   push:
