@@ -4,7 +4,7 @@ tagline: Run CodeRabbit's PR review engine from inside Claude Code, on-demand, a
 attribution: CodeRabbit
 tier: tool
 autonomous: false
-canonical_url: https://github.com/coderabbitai/claude-plugin
+canonical_url: https://github.com/coderabbitai/skills
 requires: CodeRabbit account, Claude Code
 setup_command: |
   # 1. Inside Claude Code:
@@ -31,10 +31,10 @@ review_gate: {trust: tool-assisted, standards: tool-assisted, merge: human-gate,
 checkpoints: [{phase: pre-PR, description: "Run `/coderabbit:code-review` against your working tree before opening the PR"}, {phase: before-merge, description: "Human reads the findings and approves merge"}]
 use_cases: [code-review, building-features, bug-fixing, refactoring]
 sources:
-  - title: coderabbitai/claude-plugin
+  - title: coderabbitai/skills
     author: CodeRabbit
-    url: https://github.com/coderabbitai/claude-plugin
-    year: 2025
+    url: https://github.com/coderabbitai/skills
+    year: 2026
   - title: CodeRabbit Claude Code integration docs
     author: CodeRabbit
     url: https://docs.coderabbit.ai/cli/claude-code-integration
