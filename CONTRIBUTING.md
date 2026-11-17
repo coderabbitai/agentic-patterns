@@ -51,7 +51,7 @@ Body: **leave empty**. The site renders the setup command + reference list autom
 
 Use this when there's no maintained upstream doc you can trust (single-author blog, no LICENSE, AGPL, or a pure architectural concept). You write a ~200-word body describing the technique.
 
-```yaml
+````yaml
 ---
 title: Workflow Name
 tagline: One sentence.
@@ -89,7 +89,7 @@ A paragraph or short list explaining how it works — files, state, the loop, th
 Notes on variants or successors if relevant.
 
 Canonical: https://...
-```
+````
 
 ## Editorial body — voice rules
 
